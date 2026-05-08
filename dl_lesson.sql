@@ -79,7 +79,7 @@ WHERE p.department_id = 1
 ORDER BY p.age;
 
 -- Q9
-SELECT AVG(age) AS average_age FROM people WHERE department_id = 2;
+SELECT AVG(age) AS average_age FROM people WHERE department_id = 2 AND gender = 2;
 
 -- Q10
 SELECT
